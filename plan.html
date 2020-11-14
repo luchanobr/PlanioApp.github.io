@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Planio - PLanner semanal</title>
+		<script src="plan.bundle.js" defer></script>
+		<link rel="stylesheet" href="./assets/css/styles.css" />
+		<link rel="stylesheet" href="./assets/css/all.css" />
+	</head>
+	<body>
+		<header class="d-flex align-content-center">
+			<button
+				class="btn-icon"
+				aria-label="volver a la pagina anterior"
+				id="volver"
+			>
+				<i class="fas fa-arrow-left" aria-hidden="true"></i>
+			</button>
+
+			<p class="perfil flex-grow text-center">Creación del perfil</p>
+		</header>
+
+		<main>
+			<div class="card d-flex w90 mx-auto black flex-wrap text-small">
+				<div class="w100 d-flex justify-content-spaceEvenly my-05">
+					<span>L</span>
+					<span>M</span>
+					<span>M</span>
+					<span>J</span>
+					<span>V</span>
+					<span>S</span>
+					<span>D</span>
+				</div>
+				<div class="w100 d-flex justify-content-spaceEvenly text-fechas my-05">
+					<span>11</span>
+					<span class="brand">12</span>
+					<span>13</span>
+					<span>14</span>
+					<span>15</span>
+					<span>16</span>
+					<span>17</span>
+				</div>
+			</div>
+
+			<h1 class="ml-1 mt-1 titulo">Hoy, 12 de Octubre</h1>
+			<div class="linea"></div>
+
+			<div class="receta-container">
+				<div class="card-receta w90 d-flex flex-wrap">
+					<div class="d-flex justify-content-between mt-05 w100">
+						<h3 class="text-light white ml-1 mt-05">Desayuno</h3>
+						<button class="btn-icon white mr-05">
+							<i class="far fa-heart"></i>
+						</button>
+					</div>
+					<h4 class="white ml-1 titulo-receta w66">
+						Tostadas con queso crema y ciboullette
+					</h4>
+					<div class="d-flex justify-content-between align-self-end w100 mb-1">
+						<div class="ml-1">
+							<span class="brand">
+								<i class="far fa-clock fa-sm"></i> 15min
+							</span>
+							<span class="white">
+								<i class="fas fa-dollar-sign fa-sm"></i> 150
+							</span>
+						</div>
+						<button class="btn-card mr-05" id="desayuno">
+							reemplazar <i class="fas fa-sync-alt"></i>
+						</button>
+					</div>
+				</div>
+				<div class="card-receta w90 d-flex flex-wrap">
+					<div class="d-flex justify-content-between mt-05 w100">
+						<h3 class="text-light white ml-1 mt-05">Almuerzo</h3>
+						<button class="btn-icon white mr-05">
+							<i class="far fa-heart"></i>
+						</button>
+					</div>
+					<h4 class="white ml-1 titulo-receta w66">Pescado y verduras</h4>
+					<div class="d-flex justify-content-between align-self-end w100 mb-1">
+						<div class="ml-1">
+							<span class="brand">
+								<i class="far fa-clock fa-sm"></i> 30min
+							</span>
+							<span class="white">
+								<i class="fas fa-dollar-sign fa-sm"></i> 200
+							</span>
+						</div>
+						<button class="btn-card mr-05" id="almuerzo">
+							reemplazar <i class="fas fa-sync-alt"></i>
+						</button>
+					</div>
+				</div>
+				<div class="card-receta w90 d-flex flex-wrap">
+					<div class="d-flex justify-content-between mt-05 w100">
+						<h3 class="text-light white ml-1 mt-05">Merienda</h3>
+						<button class="btn-icon white mr-05">
+							<i class="far fa-heart"></i>
+						</button>
+					</div>
+					<h4 class="white ml-1 titulo-receta w66">
+						Sándwich con verduras grilladas
+					</h4>
+					<div class="d-flex justify-content-between align-self-end w100 mb-1">
+						<div class="ml-1">
+							<span class="brand">
+								<i class="far fa-clock fa-sm"></i> 15min
+							</span>
+							<span class="white">
+								<i class="fas fa-dollar-sign fa-sm"></i> 150
+							</span>
+						</div>
+						<button class="btn-card mr-05" id="merienda">
+							reemplazar <i class="fas fa-sync-alt"></i>
+						</button>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<footer>
+			<nav class="">
+				<ul class="d-flex justify-content-spaceEvenly black">
+					<li>
+						<a href="/plan.html" aria-current="page" class="btn-icon brand"
+							><i class="fas fa-home"></i
+						></a>
+					</li>
+					<li>
+						<a href="" class="btn-icon black"> <i class="fas fa-search"></i></a>
+					</li>
+					<li>
+						<a href="" class="btn-icon black">
+							<i class="far fa-newspaper"></i>
+						</a>
+					</li>
+					<li>
+						<a href="" class="btn-icon black"> <i class="far fa-heart"></i></a>
+					</li>
+					<li>
+						<a href="" class="btn-icon black"><i class="far fa-user"></i></a>
+					</li>
+				</ul>
+			</nav>
+		</footer>
+	</body>
+</html>
